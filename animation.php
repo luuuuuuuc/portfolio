@@ -16,7 +16,7 @@
 <body>
     <div class="slide oeuvres" id="animation">
     <div id="fondanim">
-              <img src="images/figmasiteimages/merROUGE.jpg" alt="espace">
+              <img src="images/figmasiteimages/merplanete.jpg" alt="espace">
           </div>
         <div class="wrapper">
             <h1>Mes animations</h1>

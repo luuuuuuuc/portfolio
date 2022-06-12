@@ -49,14 +49,13 @@
             <p>
                 <h1 id="tho"> Thomas</h1>
             </p>
-
-
+        </div>
+        <div class="block2">
             <h1 id="etu">étudiant en</h1>
             <p>
                 <h1 id="inf"> infographie</h1>
             </p>
-
-        </div>
+         </div>
         
     </div>
     <div class="slide" id="pres">
@@ -106,7 +105,7 @@
             <nav>
                 <ul>
                     <li><a href="illustration.php">Illustration vectoriel</a></li>
-                    <li><a href="webdesign.php">Web design</a></li>
+                    <li><a href="webdesign.php">Web<strong2> design</strong2></a></li>
                     <li><a href="animation.php">Animation</a></li>
                 </ul>
             </nav>
@@ -159,7 +158,46 @@
             </div>
         </div>
     </div>
-    <footer></footer>
+    <footer>
+    <div class="footer">
+        <div class="bo" id="box">
+            <div class="log ">
+                <img src="images/figmasiteimages/logotd2.jpg" alt="">
+            </div>
+            <div class="reseau ">
+                <p>Réseaux sociaux</p>
+            </div>
+            
+                <div class="logo" id="wh">
+                    <img scr ="images/what.png" alt="">
+                </div>
+                <div class="reseau ">
+                    <img scr ="images/Fb.png" alt="">
+                </div>
+
+         </div>
+    </div>    
+            <div class="legislation ">
+               
+                <p>Les images non libres de droits utilisées dans ce portfolio ont été utilisées dans le cadre scolaire et non à but lucratif. </p>
+            </div>
+        </div>
+        </div>
+    
+    
+    <div class="copyrigth">
+        <div class="row g-0">
+            <div class="navFoot ">
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#pres">Présentation</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="copy col-md-6">Copyright @ Delacourt Thomas</div>
+        </div>
+    </footer>
 
     <script src="dist/js/glightbox.min.js"></script>
     <script>

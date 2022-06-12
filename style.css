@@ -87,7 +87,7 @@ header nav ul li a{
 #mobile{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(172, 20, 20);
+    background-color: black;
     position: fixed;
     top: 0;
     left: -100%;
@@ -126,8 +126,12 @@ header nav ul li a{
 
 /************** Home ***************/
 .block1 h1{
-    -webkit-text-stroke: 1px black;
-    text-shadow: 2px 2px 10px black;
+    -webkit-text-stroke: 1px rgb(0, 132, 255);
+    text-shadow: 2px 2px 10px rgb(0, 132, 255);
+}
+.block2 h1{
+    -webkit-text-stroke: 1px white;
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
 }
 #home{
     background-color: #1a007f;
@@ -192,7 +196,7 @@ header nav ul li a{
     }
 }
 #etu{
-    color: white;
+    color: rgb(0, 132, 255);
     font-size: 30px;
     position: relative;
     top: 500px;
@@ -215,7 +219,7 @@ header nav ul li a{
     }
 }
 #inf{
-    color: white;
+    color: rgb(0, 132, 255);
     font-size: 30px;
     position: relative;
     top: 520px;
@@ -251,7 +255,7 @@ header nav ul li a{
     }
 }
 #presentation{
-    color: white;
+    color: rgb(255, 177, 8);
     font-size: 30px;
     position: relative;
     top: 100px;
@@ -299,6 +303,9 @@ header nav ul li a{
 }
  strong{
     color: rgb(255, 177, 8);
+}
+ strong2{
+    color: rgb(2, 0, 20);
 }
 @keyframes anim8{
     from{
@@ -352,7 +359,7 @@ header nav ul li a{
 #portfolio {
     background-color:#000120 ;
     overflow: hidden;
-    background-image: url(images/figmasiteimages/mer2jpg.jpg);
+    background-image: url(images/figmasiteimages/mer3.jpg);
     background-size: cover;
     background-position: center center;
     
@@ -376,7 +383,7 @@ header nav ul li a{
 
 
 #portfolio h1{
-    color: rgb(255, 30, 0);
+    color: aqua;
     margin-top: 15px;
     right: 100px;
     font-family: 'Orbitron', sans-serif;
@@ -424,7 +431,8 @@ header nav ul li a{
     flex: 1;
 }
 #portfolio nav ul li a{
-    color: white;
+    color: aqua;
+  
     text-decoration: none;
     font-family: 'Orbitron', sans-serif;
 }
@@ -812,7 +820,7 @@ header nav ul li a{
 /************** Contact ***************/
 #contact{
    
-    background-image: url(IMAGES/figmasiteimages/contact2.jpg);
+    background-image: url(IMAGES/figmasiteimages/contact3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -903,15 +911,93 @@ label{
 /************** Footer ***************/
 footer{
     background-color: #76186e;
+ 
+}
+
+#box{
+    background-position: center;
+    width: 75%;
+    margin-left: 50px;
+}
+
+
+.log img{
+    width: 5%;
+    height: 10%;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+
+.reseau{
+    text-align: center;
+}
+.reseau p{
+    font-size: 12pt;
+    color: white;
+
+}
+
+
+.legislation{
+    font-size: 10pt !important;
+    height: 40px;
+    text-align: center;
+    color: white;
+  
+}
+
+.copyright{
+
     width: 100%;
-    min-height: 20vh; 
+    height: 20px;
+    background-color: rgb(221, 221, 221);
+}
+.navFoot{
+    background-color: rgba(241, 241, 241, 1);
+}
+.navFoot ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navFoot ul li{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navFoot ul li a{
+    text-decoration: none;
+    color:rgb(20, 27, 220);
+    font-size: 12pt;
+}
+.copy{
+    background-color: #76186e;
+    font-size: 12pt !important;
+    text-align: center;
+    padding-top: 10px;
+    color: rgba(241, 241, 241, 1);
 }
 
 
 /************** MediaQueries ***************/
-
+@media all and (max-width: 1750px){
+    strong2{
+        color: aqua;
+    }
+}
 @media all and (max-width: 1200px)
 {
+    .block1 h1{
+        -webkit-text-stroke: 1px rgb(0, 132, 255);
+        text-shadow: 2px 2px 10px rgb(0, 132, 255);
+    }
+    .block2 h1{
+        -webkit-text-stroke: 1px white;
+        text-shadow: 2px 2px 10px rgb(255, 255, 255);
+    }
     #del{
   
         color: white;
@@ -940,7 +1026,7 @@ footer{
     font-family: 'Orbitron', sans-serif;
 }
 #etu{
-    color: white;
+    color: rgb(0, 132, 255);
     font-size: 30px;
     position: relative;
     top: 400px;
@@ -955,7 +1041,7 @@ footer{
 }
 #inf{
   
-    color: white;
+    color: rgb(0, 132, 255);
     font-size: 30px;
     position: relative;
     top: 420px;
@@ -970,7 +1056,7 @@ footer{
 }
 #contact{
    
-    background-image: url(IMAGES/figmasiteimages/contact2.jpg);
+    background-image: url(IMAGES/figmasiteimages/contact3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1033,6 +1119,21 @@ footer{
 
 @media all and (max-width: 992px)
 {
+    .block1 h1{
+        -webkit-text-stroke: 1px rgb(0, 132, 255);
+        text-shadow: 2px 2px 10px rgb(0, 132, 255);
+    }
+    .block2 h1{
+        -webkit-text-stroke: 1px white;
+        text-shadow: 2px 2px 10px rgb(255, 255, 255);
+    }
+    #home{
+        background-color: #1a007f;
+        overflow: hidden;
+        background-image: url(images/figmasiteimages/acceuil.jpg);
+        background-size: cover;
+        background-position: right center;
+    }
     #del {
         color:white;
         font-size: 20px;
@@ -1059,7 +1160,7 @@ footer{
         
     }
     #etu {
-        color: white;
+        color: rgb(0, 132, 255);
         font-size: 20px;
         position: relative;
         top: 400px;
@@ -1073,7 +1174,7 @@ footer{
         font-family: 'Orbitron', sans-serif;
     }
     #inf {
-        color: white;
+        color: rgb(0, 132, 255);
         font-size: 20px;
         position: relative;
         top: 420px;
@@ -1088,7 +1189,7 @@ footer{
     }
     #contact{
    
-        background-image: url(IMAGES/figmasiteimages/contact.jpg);
+        background-image: url(IMAGES/figmasiteimages/contact3.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1173,7 +1274,7 @@ footer{
     #mobile{
         width: 100%;
         min-height: 100vh;
-        background-color: rgb(25, 172, 20);
+        background-color: black;
         position: fixed;
         top: 0;
         left: 100%;
@@ -1195,7 +1296,7 @@ footer{
     }
     
     #mobile nav li{
-        margin: 5px 0;
+        margin: 50px 0;
         text-align: center;
     }
     
@@ -1301,7 +1402,7 @@ footer{
     }
     #contact{
    
-        background-image: url(IMAGES/figmasiteimages/contact2.jpg);
+        background-image: url(IMAGES/figmasiteimages/contact3.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1389,7 +1490,7 @@ footer{
     #mobile{
         width: 100%;
         min-height: 100vh;
-        background-color: rgb(23, 20, 172);
+        background-color:black;
         position: fixed;
         top: 0;
         left: 100%;
@@ -1411,7 +1512,7 @@ footer{
     }
     
     #mobile nav li{
-        margin: 5px 0;
+        margin: 50px 0;
         text-align: center;
     }
     
